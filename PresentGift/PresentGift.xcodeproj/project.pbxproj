@@ -14,7 +14,6 @@
 		5BA89D2A1D8E67370049FDE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA89D281D8E67370049FDE3 /* LaunchScreen.storyboard */; };
 		5BA89D351D8E67370049FDE3 /* PresentGiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA89D341D8E67370049FDE3 /* PresentGiftTests.swift */; };
 		5BA89D401D8E67370049FDE3 /* PresentGiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA89D3F1D8E67370049FDE3 /* PresentGiftUITests.swift */; };
-		5BA89D4E1D8E67BA0049FDE3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BA89D4D1D8E67BA0049FDE3 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +47,6 @@
 		5BA89D3B1D8E67370049FDE3 /* PresentGiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PresentGiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA89D3F1D8E67370049FDE3 /* PresentGiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentGiftUITests.swift; sourceTree = "<group>"; };
 		5BA89D411D8E67370049FDE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5BA89D4D1D8E67BA0049FDE3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +97,13 @@
 		5BA89D1E1D8E67370049FDE3 /* PresentGift */ = {
 			isa = PBXGroup;
 			children = (
+				5BA89D4F1D8E6A380049FDE3 /* Classes */,
 				5BA89D1F1D8E67370049FDE3 /* AppDelegate.swift */,
 				5BA89D211D8E67370049FDE3 /* ViewController.swift */,
 				5BA89D231D8E67370049FDE3 /* Main.storyboard */,
 				5BA89D261D8E67370049FDE3 /* Assets.xcassets */,
 				5BA89D281D8E67370049FDE3 /* LaunchScreen.storyboard */,
 				5BA89D2B1D8E67370049FDE3 /* Info.plist */,
-				5BA89D4D1D8E67BA0049FDE3 /* Images.xcassets */,
 			);
 			path = PresentGift;
 			sourceTree = "<group>";
@@ -126,6 +124,85 @@
 				5BA89D411D8E67370049FDE3 /* Info.plist */,
 			);
 			path = PresentGiftUITests;
+			sourceTree = "<group>";
+		};
+		5BA89D4F1D8E6A380049FDE3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5BA89D501D8E6A380049FDE3 /* Base(基类) */,
+				5BA89D511D8E6A380049FDE3 /* Classify(分类) */,
+				5BA89D521D8E6A380049FDE3 /* Common(常见的) */,
+				5BA89D531D8E6A380049FDE3 /* Expand(扩大) */,
+				5BA89D541D8E6A380049FDE3 /* Home(首页) */,
+				5BA89D551D8E6A380049FDE3 /* Hot(热门) */,
+				5BA89D561D8E6A380049FDE3 /* Me(我的) */,
+				5BA89D571D8E6A380049FDE3 /* Root(主控制器) */,
+				5BA89D581D8E6A380049FDE3 /* Source(资源) */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		5BA89D501D8E6A380049FDE3 /* Base(基类) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Base(基类)";
+			sourceTree = "<group>";
+		};
+		5BA89D511D8E6A380049FDE3 /* Classify(分类) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Classify(分类)";
+			sourceTree = "<group>";
+		};
+		5BA89D521D8E6A380049FDE3 /* Common(常见的) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Common(常见的)";
+			sourceTree = "<group>";
+		};
+		5BA89D531D8E6A380049FDE3 /* Expand(扩大) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Expand(扩大)";
+			sourceTree = "<group>";
+		};
+		5BA89D541D8E6A380049FDE3 /* Home(首页) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Home(首页)";
+			sourceTree = "<group>";
+		};
+		5BA89D551D8E6A380049FDE3 /* Hot(热门) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Hot(热门)";
+			sourceTree = "<group>";
+		};
+		5BA89D561D8E6A380049FDE3 /* Me(我的) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Me(我的)";
+			sourceTree = "<group>";
+		};
+		5BA89D571D8E6A380049FDE3 /* Root(主控制器) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Root(主控制器)";
+			sourceTree = "<group>";
+		};
+		5BA89D581D8E6A380049FDE3 /* Source(资源) */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Source(资源)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -239,7 +316,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BA89D2A1D8E67370049FDE3 /* LaunchScreen.storyboard in Resources */,
-				5BA89D4E1D8E67BA0049FDE3 /* Images.xcassets in Resources */,
 				5BA89D271D8E67370049FDE3 /* Assets.xcassets in Resources */,
 				5BA89D251D8E67370049FDE3 /* Main.storyboard in Resources */,
 			);
