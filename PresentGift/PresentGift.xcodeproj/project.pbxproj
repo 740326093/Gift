@@ -24,6 +24,12 @@
 		5BA89F011D8E7CB90049FDE3 /* HotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA89F001D8E7CB90049FDE3 /* HotViewController.swift */; };
 		5BA89F031D8E7CD10049FDE3 /* ClassifyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA89F021D8E7CD10049FDE3 /* ClassifyViewController.swift */; };
 		5BA89F051D8E7CE60049FDE3 /* MeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA89F041D8E7CE60049FDE3 /* MeViewController.swift */; };
+		5BA89F071D8E7ED50049FDE3 /* MeHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA89F061D8E7ED50049FDE3 /* MeHeaderView.swift */; };
+		5BA89F091D8E7EF60049FDE3 /* MeOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA89F081D8E7EF60049FDE3 /* MeOptionView.swift */; };
+		5BA89F0B1D8E7F120049FDE3 /* MeFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA89F0A1D8E7F120049FDE3 /* MeFooterView.swift */; };
+		5BA89F0D1D8E7F790049FDE3 /* ButtonTitleDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA89F0C1D8E7F790049FDE3 /* ButtonTitleDown.swift */; };
+		5BA89F0F1D8E7FE70049FDE3 /* MeSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA89F0E1D8E7FE70049FDE3 /* MeSectionView.swift */; };
+		5BA89F131D8E80210049FDE3 /* MeSectionView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BA89F121D8E80210049FDE3 /* MeSectionView.xib */; };
 		846F102FD79784E438D24AC5 /* Pods_PresentGift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9652D48B31C41C06AD648153 /* Pods_PresentGift.framework */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +76,12 @@
 		5BA89F001D8E7CB90049FDE3 /* HotViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotViewController.swift; sourceTree = "<group>"; };
 		5BA89F021D8E7CD10049FDE3 /* ClassifyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassifyViewController.swift; sourceTree = "<group>"; };
 		5BA89F041D8E7CE60049FDE3 /* MeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeViewController.swift; sourceTree = "<group>"; };
+		5BA89F061D8E7ED50049FDE3 /* MeHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeHeaderView.swift; sourceTree = "<group>"; };
+		5BA89F081D8E7EF60049FDE3 /* MeOptionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeOptionView.swift; sourceTree = "<group>"; };
+		5BA89F0A1D8E7F120049FDE3 /* MeFooterView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeFooterView.swift; sourceTree = "<group>"; };
+		5BA89F0C1D8E7F790049FDE3 /* ButtonTitleDown.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonTitleDown.swift; sourceTree = "<group>"; };
+		5BA89F0E1D8E7FE70049FDE3 /* MeSectionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MeSectionView.swift; sourceTree = "<group>"; };
+		5BA89F121D8E80210049FDE3 /* MeSectionView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MeSectionView.xib; sourceTree = "<group>"; };
 		9652D48B31C41C06AD648153 /* Pods_PresentGift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PresentGift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B14A2D2CAEF52BEC3B2AAF79 /* Pods-PresentGift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PresentGift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PresentGift/Pods-PresentGift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -264,6 +276,11 @@
 		5BA89EEE1D8E7BCD0049FDE3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				5BA89F121D8E80210049FDE3 /* MeSectionView.xib */,
+				5BA89F061D8E7ED50049FDE3 /* MeHeaderView.swift */,
+				5BA89F081D8E7EF60049FDE3 /* MeOptionView.swift */,
+				5BA89F0A1D8E7F120049FDE3 /* MeFooterView.swift */,
+				5BA89F0E1D8E7FE70049FDE3 /* MeSectionView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -279,6 +296,7 @@
 			isa = PBXGroup;
 			children = (
 				5BA89EFC1D8E7C740049FDE3 /* BaseViewController.swift */,
+				5BA89F0C1D8E7F790049FDE3 /* ButtonTitleDown.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -439,6 +457,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5BA89F131D8E80210049FDE3 /* MeSectionView.xib in Resources */,
 				5BA89D2A1D8E67370049FDE3 /* LaunchScreen.storyboard in Resources */,
 				5BA89D271D8E67370049FDE3 /* Assets.xcassets in Resources */,
 				5BA89D251D8E67370049FDE3 /* Main.storyboard in Resources */,
@@ -516,10 +535,15 @@
 			files = (
 				5BA89F011D8E7CB90049FDE3 /* HotViewController.swift in Sources */,
 				5BA89D221D8E67370049FDE3 /* ViewController.swift in Sources */,
+				5BA89F0B1D8E7F120049FDE3 /* MeFooterView.swift in Sources */,
 				5BA89EF51D8E7C270049FDE3 /* TabbarController.swift in Sources */,
 				5BA89EF71D8E7C310049FDE3 /* NavigationController.swift in Sources */,
 				5BA89EFA1D8E7C430049FDE3 /* UIImage+Extension.swift in Sources */,
+				5BA89F0D1D8E7F790049FDE3 /* ButtonTitleDown.swift in Sources */,
 				5BA89EDF1D8E7A910049FDE3 /* Common.swift in Sources */,
+				5BA89F0F1D8E7FE70049FDE3 /* MeSectionView.swift in Sources */,
+				5BA89F071D8E7ED50049FDE3 /* MeHeaderView.swift in Sources */,
+				5BA89F091D8E7EF60049FDE3 /* MeOptionView.swift in Sources */,
 				5BA89F051D8E7CE60049FDE3 /* MeViewController.swift in Sources */,
 				5BA89EFF1D8E7C9A0049FDE3 /* HomeViewController.swift in Sources */,
 				5BA89F031D8E7CD10049FDE3 /* ClassifyViewController.swift in Sources */,
