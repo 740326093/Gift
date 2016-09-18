@@ -14,6 +14,7 @@
 		5BA89D2A1D8E67370049FDE3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BA89D281D8E67370049FDE3 /* LaunchScreen.storyboard */; };
 		5BA89D351D8E67370049FDE3 /* PresentGiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA89D341D8E67370049FDE3 /* PresentGiftTests.swift */; };
 		5BA89D401D8E67370049FDE3 /* PresentGiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BA89D3F1D8E67370049FDE3 /* PresentGiftUITests.swift */; };
+		846F102FD79784E438D24AC5 /* Pods_PresentGift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9652D48B31C41C06AD648153 /* Pods_PresentGift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09CD58F65368DA8B9933616C /* Pods-PresentGift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PresentGift.release.xcconfig"; path = "Pods/Target Support Files/Pods-PresentGift/Pods-PresentGift.release.xcconfig"; sourceTree = "<group>"; };
 		5BA89D1C1D8E67370049FDE3 /* PresentGift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PresentGift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA89D1F1D8E67370049FDE3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BA89D211D8E67370049FDE3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +49,9 @@
 		5BA89D3B1D8E67370049FDE3 /* PresentGiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PresentGiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BA89D3F1D8E67370049FDE3 /* PresentGiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentGiftUITests.swift; sourceTree = "<group>"; };
 		5BA89D411D8E67370049FDE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5BA89ED51D8E73080049FDE3 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
+		9652D48B31C41C06AD648153 /* Pods_PresentGift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PresentGift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B14A2D2CAEF52BEC3B2AAF79 /* Pods-PresentGift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PresentGift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PresentGift/Pods-PresentGift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +59,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846F102FD79784E438D24AC5 /* Pods_PresentGift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +87,8 @@
 				5BA89D331D8E67370049FDE3 /* PresentGiftTests */,
 				5BA89D3E1D8E67370049FDE3 /* PresentGiftUITests */,
 				5BA89D1D1D8E67370049FDE3 /* Products */,
+				E8CEF8F2169CB8DC7CE85877 /* Pods */,
+				7D80E136320DCA442B50B4FD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +112,7 @@
 				5BA89D261D8E67370049FDE3 /* Assets.xcassets */,
 				5BA89D281D8E67370049FDE3 /* LaunchScreen.storyboard */,
 				5BA89D2B1D8E67370049FDE3 /* Info.plist */,
+				5BA89ED51D8E73080049FDE3 /* BridgingHeader.h */,
 			);
 			path = PresentGift;
 			sourceTree = "<group>";
@@ -205,6 +214,23 @@
 			path = "Source(资源)";
 			sourceTree = "<group>";
 		};
+		7D80E136320DCA442B50B4FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9652D48B31C41C06AD648153 /* Pods_PresentGift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8CEF8F2169CB8DC7CE85877 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B14A2D2CAEF52BEC3B2AAF79 /* Pods-PresentGift.debug.xcconfig */,
+				09CD58F65368DA8B9933616C /* Pods-PresentGift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -212,9 +238,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5BA89D441D8E67370049FDE3 /* Build configuration list for PBXNativeTarget "PresentGift" */;
 			buildPhases = (
+				9B2112C267A9B45BCA2E48D9 /* [CP] Check Pods Manifest.lock */,
 				5BA89D181D8E67370049FDE3 /* Sources */,
 				5BA89D191D8E67370049FDE3 /* Frameworks */,
 				5BA89D1A1D8E67370049FDE3 /* Resources */,
+				1A6F5345449DFBE72F6B3285 /* [CP] Embed Pods Frameworks */,
+				1C27BB710421DFF860D53CD5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -274,6 +303,7 @@
 					5BA89D1B1D8E67370049FDE3 = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 33BH72JUXL;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					5BA89D2F1D8E67370049FDE3 = {
@@ -336,6 +366,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A6F5345449DFBE72F6B3285 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PresentGift/Pods-PresentGift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C27BB710421DFF860D53CD5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PresentGift/Pods-PresentGift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B2112C267A9B45BCA2E48D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5BA89D181D8E67370049FDE3 /* Sources */ = {
@@ -491,6 +569,7 @@
 		};
 		5BA89D451D8E67370049FDE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B14A2D2CAEF52BEC3B2AAF79 /* Pods-PresentGift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -499,12 +578,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cn.qjl.PresentGift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/jinliangqi/Gift/PresentGift/PresentGift/BridgingHeader.h;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
 		5BA89D461D8E67370049FDE3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09CD58F65368DA8B9933616C /* Pods-PresentGift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -513,7 +594,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cn.qjl.PresentGift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/jinliangqi/Gift/PresentGift/PresentGift/BridgingHeader.h;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
