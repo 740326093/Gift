@@ -884,7 +884,6 @@
 			baseConfigurationReference = B14A2D2CAEF52BEC3B2AAF79 /* Pods-PresentGift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 33BH72JUXL;
 				INFOPLIST_FILE = PresentGift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -900,7 +899,6 @@
 			baseConfigurationReference = 09CD58F65368DA8B9933616C /* Pods-PresentGift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 33BH72JUXL;
 				INFOPLIST_FILE = PresentGift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
