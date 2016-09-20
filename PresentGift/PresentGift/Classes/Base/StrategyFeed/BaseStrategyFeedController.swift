@@ -63,7 +63,10 @@ extension BaseStrategyFeedController: UITableViewDelegate, UITableViewDataSource
     }
     
     func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-        navigationController?.pushViewController(CommonFetureViewController(), animated: true)
+        
+        let tabBarViewController = UIApplication.sharedApplication().keyWindow?.rootViewController as! TabbarController
+        let navigationController = tabBarViewController.viewControllers![tabBarViewController.selectedIndex] as! NavigationController
+        navigationController.pushViewController(CommonStrategyViewController(), animated: true)
     }
     
 }

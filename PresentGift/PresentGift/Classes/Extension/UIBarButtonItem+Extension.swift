@@ -34,7 +34,7 @@ extension UIBarButtonItem {
     /// 选礼神器
     convenience init(chooseGifTarget: AnyObject?, action: Selector){
         let btn = UIButton(type: UIButtonType.Custom)
-        btn.frame = CGRect(x: 0, y: 0, width: 60, height: 44)
+        btn.frame = CGRect(x: 0, y: 0, width: 80, height: 44)
         btn.contentHorizontalAlignment = UIControlContentHorizontalAlignment.Right
         btn.setTitle("选礼神器", forState: UIControlState.Normal)
         btn.titleLabel?.font = UIFont.systemFontOfSize(15.0)
